@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Outfit", cursive;
+  max-width: 1440px;
+}
+
+main {
+  background: hsl(212, 45%, 89%);
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+}
+.main-content {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  justify-content: center;
+  align-items: center;
+  width: 320px;
+  height: 480px;
+  border: 5px solid transparent;
+  background: hsl(0, 0%, 100%);
+  border-radius: 20px;
+}
+img {
+  margin: 15px 20px 0px 15px;
+  border-radius: 10px;
+  height: 280px;
+  width: 280px;
+}
+.main-text {
+  margin: 20px;
+}
+h1 {
+  font-size: 1.4rem;
+  font-weight: 700;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 15px;
+  color: hsl(218, 44%, 22%);
+}
+p {
+  font-size: 15px;
+  letter-spacing: 0.01rem;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-weight: 400;
+  color: hsl(220, 15%, 55%);
+}
+
+.attribution {
+  position: absolute;
+  left: 50%;
+  bottom: 10px;
+  transform: translate(-50%, -50%);
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media screen and (max-width: 375px) {
+  .attribution {
+    bottom: -10px;
+  }
+}
